@@ -35,7 +35,9 @@ function App() {
 
   return (
     <>
-      <img src={bodyImg} className="body-img" alt="" />
+     <header>
+     <img src={bodyImg} className="body-img" alt="img" />
+      </header> 
       <main>
         <TextSlider data={data[activeSlide]} />
         <ImageSlider

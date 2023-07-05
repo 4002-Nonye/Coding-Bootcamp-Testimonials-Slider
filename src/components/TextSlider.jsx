@@ -5,9 +5,9 @@ const TextSlider = ({ data }) => {
   return (
     <div className="text-box">
         <img src={quotes} className="quotes" alt=""/>
-      <p className="text">
+      <h1 className="text">
         <em>"</em> {data.text} <em>"</em>
-      </p>
+      </h1>
 
       <div className="person">
         <p>{data.name}</p>
