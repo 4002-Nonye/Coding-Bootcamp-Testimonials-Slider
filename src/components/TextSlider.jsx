@@ -4,7 +4,7 @@ import quotes from "../assets/images/pattern-quotes.svg";
 const TextSlider = ({ data }) => {
   return (
     <div className="text-box">
-        <img src={quotes} className="quotes"/>
+        <img src={quotes} className="quotes" alt=""/>
       <p className="text">
         <em>"</em> {data.text} <em>"</em>
       </p>

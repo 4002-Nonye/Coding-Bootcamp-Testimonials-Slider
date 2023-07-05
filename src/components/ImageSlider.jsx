@@ -7,16 +7,16 @@ const ImageSlider = ({ data,handleNextSlide,handlePrevSlide }) => {
   // console.log(data)
   return (
     <div className="img-box">
-      <img src={bgImage} className="bg-img" />
+      <img src={bgImage} className="bg-img" alt="img"/>
 
-      <img src={data.img} className="main-img" />
+      <img src={data.img} className="main-img" alt="img"/>
 
       <div className="btns">
         <Button className="btn prev" onClick={handlePrevSlide}>
-          <img src={iconPrev} />
+        &lt;
         </Button>
         <Button className="btn next" onClick={handleNextSlide}>
-          <img src={iconNext} />
+        &gt;
         </Button>
       </div>
     </div>
